@@ -1,0 +1,59 @@
+.service{
+    margin-top: 30px;
+    background-color: rgb(247, 243, 243);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+.singular{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.head{
+    display: flex;
+}
+h4{
+    font-size: xx-large;
+}
+h5{
+    font-size: xx-large;
+    margin-left: 10px;
+    color: #fcb212;
+}
+p{
+    font-size: small;
+}
+.buttons{
+    background-color: #fcb212;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+.triple{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.step{
+     background-color: white;
+     border-radius: 20px;
+     padding: 20px;
+}
+
+/*media Query for big screens*/
+
+@media (min-width: 760px) {
+    .service{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .singular{
+        padding: 15%;
+    }
+    
+}

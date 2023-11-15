@@ -1,0 +1,44 @@
+.nav-logo img {
+    width: 90px;
+    height: 90px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 20px;
+}
+nav ul li{
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 5px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+nav ul li:hover{
+    background-color: #fcb212;
+    color: #fff;
+    padding: 5px;
+}
+/* media Query for system/big screen*/
+@media (min-width: 760px) {
+    nav ul{
+        flex-direction: row;
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    .nav-logo img {
+        width: 140px;
+        height: 140;
+    }
+}

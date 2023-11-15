@@ -1,0 +1,61 @@
+.Header-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.fullname{
+    font-family: "Poppins", sans-serif;
+    color: #fcb212;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+h2{
+    color: rgb(39, 38, 38);
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    line-height: 45px;
+}
+h3{
+    font-size: medium;
+}
+.payment{
+    display: flex;
+    margin-top: 20px;
+
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.Header-content{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ProfilePhoto img{
+     width: 300px;
+     height: 300px;
+     margin-left: 25%;
+     margin-top: 4%;
+     border-radius: 50%;
+     border-bottom: 8px solid #fcb212;
+     border-left: 8px solid rgb(17, 17, 71);
+}
+
+/* media Query for system/big screen*/
+@media (min-width: 760px) {
+    .Header-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        margin-right: 25%;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+   
+}
